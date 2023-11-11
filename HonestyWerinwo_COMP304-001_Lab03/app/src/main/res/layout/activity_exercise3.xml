@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Exercise3">
+
+
+    <ImageView
+        android:id="@+id/sun_pic2"
+        android:layout_width="152dp"
+        android:layout_height="171dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="271dp"
+        app:srcCompat="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/textViewBanner2"
+        android:layout_width="408dp"
+        android:layout_height="64dp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text="EXERCISE 3"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <ImageView
+        android:id="@+id/earth_pic"
+        android:layout_width="102dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="481dp"
+        app:srcCompat="@drawable/earth" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="267dp"
+        android:layout_marginTop="658dp"
+        android:layout_marginEnd="50dp"
+        android:text="EXIT" />
+
+
+</RelativeLayout>
+
